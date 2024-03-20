@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  padding-top: 50px;
+}
+
+.navbar-brand{
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.imgSlider {
+  height: 600px;
+}
+
+.about {
+  background-color: #f2f2f2;
+}
+.seperation {
+  border: none;
+  border-top: 3px solid #343a40;
+  max-width: 250px;
+  margin: 25px auto;
+}
+
+.icongray {
+  color: #343a40;
+  position: relative;
+  top: -55px;
+  font-size: 40px;
+  border: 10px solid #f2f2f2;
+  background-color: #f2f2f2;
+}
+
+.iconwhite {
+  color: #343a40;
+  position: relative;
+  top: -55px;
+  font-size: 40px;
+  border: 10px solid #fff;
+  background-color: #fff;
+}
+
+.teamCard {
+  transition: all 0.3s;
+}
+
+.teamCard:hover {
+  opacity: 0.9;
+  scale: 1.02;
+}
+
+.galery {
+  background-color: #f2f2f2;
+}
+
+.figure:hover {
+  opacity: 0.8;
+}
